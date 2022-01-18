@@ -1,0 +1,23 @@
+.bg-top-nav {
+  background-color: #232f3e;
+  color: white;
+}
+.custom-top-nav,
+.bg-top-nav p {
+  font-size: 13px;
+}
+.border-left {
+  border-color: #7a7a7a !important;
+}
+.custom-btn-font-size {
+  font-size: 14px;
+}
+.shopping-card {
+  background-color: transparent;
+}
+.shopping-card i {
+  vertical-align: inherit;
+}
+.custom-dropdown-toggle::after {
+  vertical-align: inherit;
+}

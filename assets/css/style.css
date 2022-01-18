@@ -1,0 +1,28 @@
+@import "./_top-nav.css";
+
+/* @font-face {
+  font-family: "IranSans";
+  src: url("/assets/fonts/IRANSans-Medium-web.ttf") format("ttf"),
+    url("/assets/fonts/IRANSans-Medium-web.woff") format("woff")
+      url("/assets/fonts/IRANSans-Medium-web.woff2") format("woff")
+      url("/assets/fonts/IRANSans-Medium-web.eot") format("eot");
+}
+body {
+  font-family: "IranSans";
+} */
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  text-transform: capitalize;
+  list-style: none;
+}
+
+html {
+  font-family: "Noto Sans JP", sans-serif;
+  scroll-behavior: smooth;
+}
+p {
+  margin: 0;
+}
