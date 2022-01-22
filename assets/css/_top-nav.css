@@ -21,3 +21,45 @@
 .custom-dropdown-toggle::after {
   vertical-align: inherit;
 }
+.basket {
+  width: 300px;
+}
+.basket a {
+  font-size: 14px;
+}
+.basket a img {
+  width: 65px;
+  height: 65px;
+}
+.custom-navbar-nav {
+  font-size: 15px;
+}
+.custom-navbar-nav .nav-item {
+  position: unset;
+}
+.custom-navbar-nav .nav-item .dropdown-menu {
+  color: #fff;
+  border-radius: 0;
+  top: 67px;
+}
+.dropdown-image img {
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.dropdown-menu .nav-item .nav-link {
+  color: black;
+}
+.dropdown-menu .nav-item .nav-link i {
+  vertical-align: -3px;
+  margin-left: 3px;
+}
+.dropdown-menu .nav-item .nav-link {
+  transition: 0.5s ease;
+}
+.dropdown-menu .nav-item .nav-link:hover {
+  color: black;
+  margin-right: 6px;
+}
