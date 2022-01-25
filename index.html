@@ -23,10 +23,12 @@
         <!-- top nav -->
         <div class="container">
           <div class="row d-flex justify-content-center align-items-center">
-            <div class="col-sm-12 col-md-6">
+            <div class="col-sm-12 col-md-6 d-none d-md-block">
               <p>ارسال رایگان-ضمانت بازگشت وجه ۳۰ روزه</p>
             </div>
-            <div class="col-sm-12 col-md-6">
+            <div
+              class="col-sm-12 col-md-6 d-flex justify-content-center align-items-center"
+            >
               <nav class="nav custom-top-nav">
                 <a class="nav-link text-white border-left" href="#"
                   >آدرس فروشگاه</a
@@ -37,7 +39,9 @@
                 <a class="nav-link text-white border-left" href="#"
                   >تلفن:09120000000</a
                 >
-                <a class="nav-link text-white border-left">ضمانت کیفیت محصول</a>
+                <a class="nav-link text-white border-left d-none d-md-block"
+                  >ضمانت کیفیت محصول</a
+                >
               </nav>
             </div>
           </div>
@@ -62,10 +66,14 @@
                     <a class="dropdown-item" href="#">لوازم خانگی</a>
                   </div>
                 </div>
-                <input type="text" class="form-control" />
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="جستجو ..."
+                />
                 <div class="input-group-append">
                   <button
-                    class="btn btn-danger custom-btn-font-size"
+                    class="btn btn-success custom-btn-font-size"
                     type="button"
                   >
                     بگرد
@@ -73,7 +81,9 @@
                 </div>
               </div>
             </div>
-            <div class="col-sm-12 col-md-3">
+            <div
+              class="col-sm-12 col-md-3 d-flex justify-content-center align-items-center mt-csm-3"
+            >
               <div class="dropdown">
                 <a
                   class="btn btn-link text-decoration-none text-light dropdown-toggle custom-dropdown-toggle border-0 shopping-card custom-btn-font-size"
@@ -160,13 +170,15 @@
         </div>
         <!-- buttom nav -->
 
-        <nav class="bg-danger w-100 position-relative">
+        <nav class="w-100 position-relative">
           <div class="container">
             <div class="row">
-              <nav class="navbar navbar-expand-lg navbar-dark custom-navbar">
+              <nav
+                class="navbar navbar-expand-lg navbar-dark custom-navbar w-100"
+              >
                 <a class="navbar-brand mr-2" href="#">فروشگاه</a>
                 <button
-                  class="navbar-toggler"
+                  class="navbar-toggler border-0"
                   type="button"
                   data-toggle="collapse"
                   data-target="#navbarSupportedContent"
@@ -262,59 +274,121 @@
                         لوازم خودرو
                       </a>
                       <div
-                        class="dropdown-menu w-100 dropdown-image"
+                        class="dropdown-menu w-100 dropdown-image border-0 shadow"
                         aria-labelledby="navbarDropdown"
                       >
                         <img
                           src="./assets/images/irina-grotkjaer-YVeFdQyxrfM-unsplash.jpg"
+                          class="d-none d-lg-block"
                           alt=""
                           srcset=""
                         />
-                        <ul class="nav flex-column">
-                          <li class="nav-item">
-                            <a class="nav-link" href="#">
-                              <i class="fas fa-angle-left"></i>ماشین لباسشویی</a
-                            >
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="#"
-                              ><i class="fas fa-angle-left"></i>یخچال‌و‌فریزر</a
-                            >
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="#"
-                              ><i class="fas fa-angle-left"></i>اجاق گاز</a
-                            >
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="#"
-                              ><i class="fas fa-angle-left"></i>لوازم تصویری و
-                              صوتی</a
-                            >
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="#"
-                              ><i class="fas fa-angle-left"></i>مبلمان</a
-                            >
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="#"
-                              ><i class="fas fa-angle-left"></i>فرش و قالیچه</a
-                            >
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="#"
-                              ><i class="fas fa-angle-left"></i>لوازم تصویری و
-                              صوتی</a
-                            >
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="#"
-                              ><i class="fas fa-angle-left"></i>لوازم تصویری و
-                              صوتی</a
-                            >
-                          </li>
-                        </ul>
+                        <div class="container">
+                          <div class="row w-100">
+                            <div class="col-sm-12 col-lg-3">
+                              <ul class="nav flex-column">
+                                <li class="nav-item">
+                                  <a class="nav-link" href="#">
+                                    <i class="fas fa-angle-left"></i>ماشین
+                                    لباسشویی</a
+                                  >
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="#"
+                                    ><i class="fas fa-angle-left"></i
+                                    >یخچال‌و‌فریزر</a
+                                  >
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="#"
+                                    ><i class="fas fa-angle-left"></i>اجاق
+                                    گاز</a
+                                  >
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="#"
+                                    ><i class="fas fa-angle-left"></i>لوازم
+                                    تصویری و صوتی</a
+                                  >
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="#"
+                                    ><i class="fas fa-angle-left"></i>مبلمان</a
+                                  >
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="#"
+                                    ><i class="fas fa-angle-left"></i>فرش و
+                                    قالیچه</a
+                                  >
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="#"
+                                    ><i class="fas fa-angle-left"></i>لوازم
+                                    تصویری و صوتی</a
+                                  >
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="#"
+                                    ><i class="fas fa-angle-left"></i>لوازم
+                                    تصویری و صوتی</a
+                                  >
+                                </li>
+                              </ul>
+                            </div>
+                            <div class="col-sm-12 col-lg-3">
+                              <ul class="nav flex-column">
+                                <li class="nav-item">
+                                  <a class="nav-link" href="#">
+                                    <i class="fas fa-angle-left"></i>ماشین
+                                    لباسشویی</a
+                                  >
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="#"
+                                    ><i class="fas fa-angle-left"></i
+                                    >یخچال‌و‌فریزر</a
+                                  >
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="#"
+                                    ><i class="fas fa-angle-left"></i>اجاق
+                                    گاز</a
+                                  >
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="#"
+                                    ><i class="fas fa-angle-left"></i>لوازم
+                                    تصویری و صوتی</a
+                                  >
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="#"
+                                    ><i class="fas fa-angle-left"></i>مبلمان</a
+                                  >
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="#"
+                                    ><i class="fas fa-angle-left"></i>فرش و
+                                    قالیچه</a
+                                  >
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="#"
+                                    ><i class="fas fa-angle-left"></i>لوازم
+                                    تصویری و صوتی</a
+                                  >
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="#"
+                                    ><i class="fas fa-angle-left"></i>لوازم
+                                    تصویری و صوتی</a
+                                  >
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
                       </div>
                     </li>
 
