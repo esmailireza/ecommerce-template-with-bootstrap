@@ -68,3 +68,7 @@
     margin-top: 1rem !important;
   }
 }
+
+::-webkit-input-placeholder {
+  font-size: 14px;
+}
