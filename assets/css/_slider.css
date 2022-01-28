@@ -1,6 +1,10 @@
 .custom-col-md-3 {
-  flex: 0 0 14.33%;
-  max-width: 25%;
+  flex: 0 0 18%;
+  max-width: 18%;
+}
+.custom-col-md-6 {
+  flex: 0 0 62%;
+  max-width: 62%;
 }
 @media screen and (max-width: 991px) {
   .custom-col-md-3 {
@@ -21,5 +25,9 @@
 @media (max-width: 767px) {
   .custom-col-md-3 {
     margin-top: 12px;
+  }
+  .custom-col-md-6 {
+    flex: 0 0 100%;
+    max-width: 100%;
   }
 }
