@@ -14,3 +14,6 @@
   display: flex;
   flex-direction: column;
 }
+.custom-responsive-xl {
+  width: 40%;
+}
