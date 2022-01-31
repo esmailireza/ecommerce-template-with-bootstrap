@@ -18,3 +18,14 @@
   width: 40%;
   margin-bottom: 18px;
 }
+.custom-ads-col-md-6 {
+  flex: 0 0 47.8%;
+  max-width: 47.8%;
+}
+
+@media (max-width: 767px) {
+  .custom-ads-col-md-6 {
+    flex: 0 0 67.5%;
+    max-width: 67.5%;
+  }
+}
