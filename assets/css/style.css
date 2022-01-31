@@ -2,16 +2,33 @@
 @import "./_slider.css";
 @import "./_shipping.css";
 @import "./_categories.css";
-/* @font-face {
-  font-family: "IranSans";
-  src: url("/assets/fonts/IRANSans-Medium-web.ttf") format("ttf"),
-    url("/assets/fonts/IRANSans-Medium-web.woff") format("woff")
-      url("/assets/fonts/IRANSans-Medium-web.woff2") format("woff")
-      url("/assets/fonts/IRANSans-Medium-web.eot") format("eot");
+@import "./_special-offers.css";
+
+@font-face {
+  font-family: "iranSans-bold";
+  src: url("../fonts/IRANSans-Bold-web.woff");
 }
+@font-face {
+  font-family: "iranSans-light";
+  src: url("../fonts/IRANSans-Light-web.woff");
+}
+@font-face {
+  font-family: "iranSans-medium";
+  src: url("../fonts/IRANSans-Medium-web.woff");
+}
+@font-face {
+  font-family: "iranSans-thin";
+  src: url("../fonts/IRANSans-UltraLight-web.woff");
+}
+@font-face {
+  font-family: "iranS";
+  src: url("../fonts/IRANSans-web.woff");
+}
+
 body {
-  font-family: "IranSans";
-} */
+  font-family: "iranSans-light";
+}
+
 * {
   padding: 0;
   margin: 0;
