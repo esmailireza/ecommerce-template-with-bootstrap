@@ -15,3 +15,33 @@
 .custom-nav-tabs .nav-link:focus {
   border-color: transparent;
 }
+.offer-details a {
+  color: #9891ff;
+  font-size: 16px;
+}
+.offer-details .offer-rating i {
+  color: #caca14;
+  font-size: 16px;
+}
+.offer-details .offer-price s {
+  color: red;
+  font-size: 16px;
+}
+.count-down-timer p {
+  font-size: 14px;
+}
+.count-down-timer span {
+  background-color: #efefef;
+  margin: 5px;
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+}
+.count-down-timer #demo #day,
+.count-down-timer #demo #hours,
+.count-down-timer #demo #minutes,
+.count-down-timer #demo #seconds {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
