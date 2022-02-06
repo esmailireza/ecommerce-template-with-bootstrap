@@ -36,6 +36,8 @@
   width: 30px;
   height: 30px;
   display: inline-block;
+  border-radius: 100%;
+  padding: 15px;
 }
 .count-down-timer #demo #day,
 .count-down-timer #demo #hours,
@@ -44,4 +46,47 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+#offer-expire-text {
+  z-index: 1;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+#offer-expire-text #offer-expire-text-inner {
+  padding: 10px;
+  font-size: 15px;
+}
+#day,
+#hours,
+#minutes,
+#seconds {
+  position: relative;
+}
+#demo #day::after {
+  content: "روز";
+  position: absolute;
+  top: 34px;
+  font-size: 11px;
+}
+#demo #hours::after {
+  content: "ساعت";
+  position: absolute;
+  top: 35px;
+  font-size: 11px;
+}
+#demo #minutes::after {
+  content: "دقیقه";
+  position: absolute;
+  top: 35px;
+  font-size: 11px;
+}
+#demo #seconds::after {
+  content: "ثانیه";
+  position: absolute;
+  top: 35px;
+  font-size: 11px;
 }
