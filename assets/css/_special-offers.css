@@ -90,3 +90,18 @@
   top: 35px;
   font-size: 11px;
 }
+.offer-product-image {
+  height: 190px;
+  overflow: hidden;
+}
+.offer-product-image img {
+  width: 200px;
+}
+.offer-product-image:hover .first-img,
+.offer-product-image:hover .second-img {
+  transform: translateY(-190px);
+}
+.offer-product-image .first-img,
+.offer-product-image .second-img {
+  transition: 0.5s ease;
+}
