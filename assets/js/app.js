@@ -70,3 +70,7 @@ let x = setInterval(function () {
     }
   }
 }, 1000);
+
+$(document).ready(function () {
+  $(".owl-carousel").owlCarousel();
+});
