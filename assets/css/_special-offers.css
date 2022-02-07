@@ -105,3 +105,17 @@
 .offer-product-image .second-img {
   transition: 0.5s ease;
 }
+.special-box-shadow {
+  box-shadow: 0px 0px 1px 1px #eee;
+}
+.offer-section-title {
+  right: 0;
+}
+@media screen and (max-width: 575px) {
+  .offer-section-title {
+    font-size: 14px;
+  }
+  .custom-nav-link {
+    font-size: 13px !important;
+  }
+}
