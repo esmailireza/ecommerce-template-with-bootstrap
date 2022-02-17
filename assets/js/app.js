@@ -72,5 +72,14 @@ let x = setInterval(function () {
 }, 1000);
 
 $(document).ready(function () {
-  $(".owl-carousel").owlCarousel();
+  $(".owl-carousel").owlCarousel({
+    rtl: true,
+    items: 4,
+    loop: true,
+    margin: 0,
+    nav: true,
+    autoplay: false,
+    autoplayTimeout: 5000,
+    autoplayHoverPause: true,
+  });
 });
