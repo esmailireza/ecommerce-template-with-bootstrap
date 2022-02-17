@@ -1,0 +1,51 @@
+.p-title,
+.p-price {
+  font-size: 14px;
+}
+.card-img {
+  max-width: 230px;
+}
+.custom-card {
+  border: none;
+  border-radius: 0;
+}
+.custom-box-shadow-card {
+  margin: 5px;
+}
+.custom-box-shadow-card:hover {
+  box-shadow: 0 0 8px 3px #efefef;
+  z-index: none;
+}
+.owl-carousel .owl-nav.disabled {
+  display: block;
+  text-align: center;
+}
+.owl-carousel .owl-nav {
+  position: absolute;
+  top: 160px;
+  width: 100%;
+  display: flex !important;
+}
+.owl-carousel .owl-nav .owl-next {
+  position: absolute;
+  left: 4px;
+}
+.owl-carousel .owl-nav .owl-prev {
+  position: absolute;
+  right: 4px;
+}
+.owl-carousel .owl-nav .owl-next,
+.owl-carousel .owl-nav .owl-prev {
+  width: 40px;
+}
+.owl-carousel .owl-nav .owl-next span,
+.owl-carousel .owl-nav .owl-prev span {
+  display: block;
+  font-size: 60px;
+  background-color: #fff;
+  box-shadow: 0 0 5px 4px #efefef;
+}
+.owl-carousel .owl-nav .owl-next:focus,
+.owl-carousel .owl-nav .owl-next:focus span {
+  outline: none;
+}

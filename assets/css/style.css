@@ -3,6 +3,7 @@
 @import "./_shipping.css";
 @import "./_categories.css";
 @import "./_special-offers.css";
+@import "./_owl-carous.css";
 
 @font-face {
   font-family: "iranSans-bold";
