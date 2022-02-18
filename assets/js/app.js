@@ -78,6 +78,7 @@ $(document).ready(function () {
     loop: true,
     margin: 0,
     nav: true,
+    center: true,
     autoplay: false,
     autoplayTimeout: 5000,
     autoplayHoverPause: true,
