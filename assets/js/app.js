@@ -79,8 +79,29 @@ $(document).ready(function () {
     margin: 0,
     nav: true,
     center: true,
-    autoplay: false,
-    autoplayTimeout: 5000,
+    slideBy: 3,
+    autoplay: true,
+    autoplayTimeout: 2000,
     autoplayHoverPause: true,
+    responsiveClass: true,
+    responsive: {
+      0: {
+        items: 1,
+        nav: true,
+      },
+      600: {
+        items: 2,
+        nav: false,
+      },
+      1000: {
+        items: 3,
+        nav: true,
+        center: false,
+      },
+      1200: {
+        items: 4,
+        nav: true,
+      },
+    },
   });
 });
